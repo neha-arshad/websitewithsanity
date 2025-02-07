@@ -382,12 +382,16 @@ const Navbar = () => {
 
           {/* Right Side: Signup, Login, and Cart */}
           <div className="flex items-center space-x-4">
+						<Link href="/login">
             <Button className="text-xs hover:text-gray-700" variant="outline">
               Login
             </Button>
+						</Link>
+						<Link href="/signup">
             <Button className="text-xs hover:text-gray-700" variant="outline">
               Signup
             </Button>
+						</Link>
 
             {/* Cart Icon */}
             <button
